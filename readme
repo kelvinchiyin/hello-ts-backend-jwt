@@ -1,0 +1,4 @@
+openssl genpkey -algorithm RSA -out private.pem 4096  # Generates private key
+openssl rsa -in private.pem -pubout -out public.pem # Extracts public key
+
+
